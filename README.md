@@ -6,7 +6,7 @@
 
 取得对应游戏版本的 Mod ZIP 后，退出游戏并解压。把 `pakchunk99-Nailoong_P.pak` 和 `pakchunk99-Nailoong_P.sig` 直接放进游戏安装目录内的 `Sifu/Content/Paks/~mods`。如果没有 `~mods`，在 `Paks` 内新建。已有同名文件时，先将原先的一对备份到游戏目录外。启动后在男主衣柜切换到对应服装。卸载时退出游戏，移走这两个文件，有需要时复制回备份。
 
-现有 ZIP 包含同济校徽，Release 目前为草稿。
+现有 ZIP 包含同济大学圆形校标，Release 草稿将在取得覆盖游戏贴图使用及 GitHub 公开分发的书面许可后发布。[同济大学官方学校标识页面](https://www.tongji.edu.cn/xxgk1/xxbs1.htm)
 
 ## 工程
 
