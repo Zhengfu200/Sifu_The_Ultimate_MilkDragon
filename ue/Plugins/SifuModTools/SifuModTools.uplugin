@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "SifuModTools",
+	"Description": "Editor helpers for Sifu modding: cloth from vertex colors, capsule physics assets, ref skeleton dumps.",
+	"Category": "Editor",
+	"CreatedBy": "",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "4.26.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "SifuModTools",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
