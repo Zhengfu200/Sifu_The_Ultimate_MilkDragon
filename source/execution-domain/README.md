@@ -7,7 +7,7 @@
 ## 安装
 
 1. 退出游戏。首次使用时先安装支持 EngineTick 的 UE4SS，可用本仓库的[时停 Release](https://github.com/Zhengfu200/Sifu_The_Ultimate_MilkDragon/releases/tag/time-stop-v1.0.0)提供的兼容加载器。
-2. 解压 `Sifu-ExecutionDomain-Epic-6770.zip`，将 ZIP 中的 `Binaries` 与 `Content` 合并到游戏安装根目录内的同一个 `Sifu` 文件夹。
+2. 解压 `Sifu-ExecutionDomain-Installed-Epic-6770.zip`，将 ZIP 中的 `Binaries` 与 `Content` 合并到游戏安装根目录内的同一个 `Sifu` 文件夹。
 3. 确认模组目录位于 `Sifu/Binaries/Win64/ue4ss/Mods/SifuExecutionDomain`，`.pak` 和 `.sig` 位于 `Sifu/Content/Paks/~mods`。启动后在自由训练有敌人时测试。
 
 杨招式也绑定了 **X**。如果想使用默认 X 键触发处决，建议先单独启用处决领域再测试。
@@ -20,6 +20,6 @@
 
 ## 开发
 
-`Build.ps1` 使用 MinGW GCC、UE 4.26.2、`tools/repak/repak.exe` 和本机对应版本的游戏文件。`ue/Content/ExecutionDomain/` 含可编辑的特效资产，`build_effects.py` 提供生成逻辑，`test_lifecycle.py` 使用 Lupa 模拟引擎边界。`release-source/` 对应现有 ZIP 的 Lua，主源码包含后续开发改动。
+`Build.ps1` 使用 MinGW GCC、UE 4.26.2、`tools/repak/repak.exe` 和本机对应版本的游戏文件。`ue/Content/ExecutionDomain/` 含可编辑的特效资产，`build_effects.py` 提供生成逻辑，`test_lifecycle.py` 使用 Lupa 模拟引擎边界。当前安装包与本机运行文件一致。
 
 [安装包](https://github.com/Zhengfu200/Sifu_The_Ultimate_MilkDragon/releases/tag/execution-domain-v1.0.0)

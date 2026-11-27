@@ -10,7 +10,7 @@
 2. 解压 `Sifu-RandomThrowable-Epic-6770.zip`，把包内 `Win64` 的内容合并到游戏的 `Sifu/Binaries/Win64/`。
 3. 启动游戏，在可操作时空手按 **V**。
 
-两个 **V** 键版本共用 `SifuThrowStun` 目录。使用其中一个版本，切换前将旧版本目录移出 `Mods` 后再复制新文件。
+若已有同名 `SifuThrowStun` 目录，请先将旧目录备份到游戏目录外，再复制新文件。
 
 覆盖已有文件前，把原文件备份到游戏目录外。
 

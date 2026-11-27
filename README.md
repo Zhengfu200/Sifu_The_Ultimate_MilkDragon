@@ -14,11 +14,10 @@
 | --- | --- | --- |
 | T 键时停 | [Release](https://github.com/Zhengfu200/Sifu_The_Ultimate_MilkDragon/releases/tag/time-stop-v1.0.0) | [源码与文档](source/time-stop/README.md) |
 | V 键随机投掷物 | [Release](https://github.com/Zhengfu200/Sifu_The_Ultimate_MilkDragon/releases/tag/random-throwable-v1.0.0) | [源码与文档](source/random-throwable/README.md) |
-| V 键投掷眩晕 | [Release](https://github.com/Zhengfu200/Sifu_The_Ultimate_MilkDragon/releases/tag/throw-stun-v1.0.0) | [源码与文档](source/throw-stun/README.md) |
 | 处决领域 | [Release](https://github.com/Zhengfu200/Sifu_The_Ultimate_MilkDragon/releases/tag/execution-domain-v1.0.0) | [源码与文档](source/execution-domain/README.md) |
 | 杨招式 | [Release](https://github.com/Zhengfu200/Sifu_The_Ultimate_MilkDragon/releases/tag/yang-moves-v1.0.0) | [源码与文档](source/yang-moves/README.md) |
 
-扬招式的七个变体只安装一个。随机投掷物和投掷眩晕共用同一目录及 V 键，也只安装一个。
+杨招式的公开安装包为本机正在使用的推踢特效版。
 
 ## 工程
 

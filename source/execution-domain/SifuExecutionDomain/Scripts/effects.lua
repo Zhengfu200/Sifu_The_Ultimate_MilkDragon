@@ -2,7 +2,7 @@ local UEHelpers=require("UEHelpers")
 local folder=debug.getinfo(1,"S").source:sub(2):match("^(.*[/\\])")
 local statics=UEHelpers.GetGameplayStatics()
 local Effects={}
-local GLOW_ENABLED=true
+local GLOW_ENABLED=false
 local active={}
 local assets={}
 local function valid(o)return o~=nil and type(o.IsValid)=="function" and o:IsValid()end
@@ -161,3 +161,4 @@ function Effects.tick()
     end
 end
 return Effects
+
