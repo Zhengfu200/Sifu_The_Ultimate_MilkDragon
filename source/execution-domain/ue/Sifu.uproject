@@ -1,0 +1,9 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "4.26",
+  "Description": "Independent Sifu Execution Domain effects authoring",
+  "Plugins": [
+    { "Name": "PythonScriptPlugin", "Enabled": true },
+    { "Name": "EditorScriptingUtilities", "Enabled": true }
+  ]
+}

@@ -6,6 +6,20 @@
 
 取得对应游戏版本的 Mod ZIP 后，退出游戏并解压。把 `pakchunk99-Nailoong_P.pak` 和 `pakchunk99-Nailoong_P.sig` 直接放进游戏安装目录内的 `Sifu/Content/Paks/~mods`。如果没有 `~mods`，在 `Paks` 内新建。已有同名文件时，先将原先的一对备份到游戏目录外。启动后在男主衣柜切换到对应服装。卸载时退出游戏，移走这两个文件，有需要时复制回备份。
 
+## 其他模组
+
+下列模组适用于 Windows Epic 版《师父》`v_1.29_6.770`。安装包和教程可在各自的 Release 中找到。
+
+| 模组 | 安装包和教程 | 开发文件 |
+| --- | --- | --- |
+| T 键时停 | [Release](https://github.com/Zhengfu200/Sifu_The_Ultimate_MilkDragon/releases/tag/time-stop-v1.0.0) | [源码与文档](source/time-stop/README.md) |
+| V 键随机投掷物 | [Release](https://github.com/Zhengfu200/Sifu_The_Ultimate_MilkDragon/releases/tag/random-throwable-v1.0.0) | [源码与文档](source/random-throwable/README.md) |
+| V 键投掷眩晕 | [Release](https://github.com/Zhengfu200/Sifu_The_Ultimate_MilkDragon/releases/tag/throw-stun-v1.0.0) | [源码与文档](source/throw-stun/README.md) |
+| 处决领域 | [Release](https://github.com/Zhengfu200/Sifu_The_Ultimate_MilkDragon/releases/tag/execution-domain-v1.0.0) | [源码与文档](source/execution-domain/README.md) |
+| 杨招式 | [Release](https://github.com/Zhengfu200/Sifu_The_Ultimate_MilkDragon/releases/tag/yang-moves-v1.0.0) | [源码与文档](source/yang-moves/README.md) |
+
+扬招式的七个变体只安装一个。随机投掷物和投掷眩晕共用同一目录及 V 键，也只安装一个。
+
 ## 工程
 
 - `scripts/` 包含 Blender 模型处理、UE 导入与打包、服装和握持挂点工具。
